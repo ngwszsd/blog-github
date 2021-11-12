@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "Leave Time For WorthWhile Characters And Stories",
+  "title": "Leave Time For WorthWhile Characters And Stories.",
   "description": "desc less",
   "dest": "public",
   "head": [
