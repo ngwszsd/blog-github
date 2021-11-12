@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "welcome",
+  "title": "兄弟别看了放弃学习吧",
   "description": "desc less",
   "dest": "public",
   "head": [
