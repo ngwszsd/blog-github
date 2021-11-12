@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "兄弟别看了放弃学习吧",
+  "title": "Leave Time For WorthWhile Characters And Stories",
   "description": "desc less",
   "dest": "public",
   "head": [
