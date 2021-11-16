@@ -1,5 +1,5 @@
 ---
-title: redux_redux_thunk_saga_react-redux__demo
+title: reduxReduxThunkSagaReactReduxDemo
 date: 2021-11-14
 tags:
  - tagReact

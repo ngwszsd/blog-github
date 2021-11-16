@@ -1,5 +1,5 @@
 ---
-title: react_redux_demo
+title: reactreduxdemo
 date: 2021-11-14
 tags:
  - tagReact

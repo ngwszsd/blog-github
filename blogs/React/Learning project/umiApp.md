@@ -1,5 +1,5 @@
 ---
-title: umi-app + mobx
+title: umiappmobx
 date: 2021-11-14
 tags:
  - tagReact

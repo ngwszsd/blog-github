@@ -1,5 +1,5 @@
 ---
-title: register_login
+title: registerlogin
 date: 2021-11-14
 tags:
  - tagReact

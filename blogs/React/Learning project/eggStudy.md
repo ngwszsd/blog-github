@@ -1,5 +1,5 @@
 ---
-title: egg-study
+title: eggstudy
 date: 2021-11-14
 tags:
  - tagReact
