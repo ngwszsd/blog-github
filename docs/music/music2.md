@@ -1,8 +1,8 @@
 ---
-title: music2
-date: 2021-11-12
+title: 可心gif
+date: 2021-11-17
 tages: 
  - music
 ---
 
-music2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<iframe height=498 width=510 src="../../.vuepress/public/kexin.mp4">
