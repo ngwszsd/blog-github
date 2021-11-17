@@ -87,3 +87,27 @@ const TimerView = observer(() => {
     return <span>Seconds passed: {timer.secondsPassed}</span>
 })
 ```
+
+# 赋值要在runInAction运行 或者用generete函数
+```js
+  // await
+  async getData() {
+    try{
+      const res = await fetch('https://www.marketup.cn/open/api/v1/chat/companyInfo').then(response => response.json())
+      runInAction(() => {
+        this.data = res.data
+      })
+    }catch (e) {
+    }
+  }
+
+  // yield
+  *getOth(): any {
+    try {
+      const res = yield fetch('https://www.marketup.cn/open/api/v1/chat/companyInfo').then(response => response.json())
+      this.data = res.data
+    } catch (error) {
+
+    }
+  }
+```
