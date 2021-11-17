@@ -5,4 +5,5 @@ tages:
  - music
 ---
 
-<iframe height=498 width=510 src="https://github.com/ngwszsd/blog-github/blob/main/.vuepress/public/kexin.mp4">
+啦啦啦啦啦
+<video data-v-33f25cce="" src="https://github.com/ngwszsd/blog-github/blob/main/.vuepress/public/kexin.mp4" autoplay="autoplay" muted="muted" loop="loop" style="width: 100%; height: 100%;"></video>
