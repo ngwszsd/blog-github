@@ -5,4 +5,4 @@ tages:
  - music
 ---
 
-<iframe height=498 width=510 src="../../.vuepress/public/kexin.mp4">
+<iframe height=498 width=510 src="https://github.com/ngwszsd/blog-github/blob/main/.vuepress/public/kexin.mp4">
