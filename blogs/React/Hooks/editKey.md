@@ -10,13 +10,14 @@ categories:
 # 修改{}的key
 
 ```js
-data { id：‘11’, name:‘张三’ }
-var keyMap = { id: ‘序列’, name: ‘姓名’ }
+var data = { name: '张三', id: '11' }
+var keyMap = { name: '姓名', id: '序列' }
 var objs = Object.keys(data).reduce((newData, key) => {
     let newKey = keyMap[key] || key
     newData[newKey] = data[key]
     return newData
 }, {})
+console.log(objs)
 
 ```
 
