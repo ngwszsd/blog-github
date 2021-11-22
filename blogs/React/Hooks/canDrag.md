@@ -94,11 +94,10 @@ categories:
     function endFun(e) {
         document.removeEventListener(moveEvt, moveFun)
         document.removeEventListener(endEvt, endFun)
-        window.location.href = dragLink;
+        isClick ? window.location.href = dragLink : () => {}
     }
 
 })('dragId', 'dragLink')
-
 
 ```
 
