@@ -9,7 +9,8 @@ categories:
 
 # 解决办法 ：重启mfsu
 
-+ 注释运行一次 再重新打开
++ 重启项目（删除.umi）没有用
++ 必须注释运行一次 再重新打开
 ![mfsu](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/img/mfsu.png)
 
 
