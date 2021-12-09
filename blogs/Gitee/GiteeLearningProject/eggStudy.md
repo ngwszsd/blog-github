@@ -2,9 +2,9 @@
 title: eggstudy
 date: 2021-11-14
 tags:
- - giteeDemo
+ - egg
 categories:
- - React
+ - Gitee
 ---
 
 # [egg-study](https://gitee.com/garvinew/egg-study)

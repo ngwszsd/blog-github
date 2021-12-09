@@ -2,9 +2,9 @@
 title: registerlogin
 date: 2021-11-14
 tags:
- - giteeDemo
+ - Sign up Sign in
 categories:
- - React
+ - Gitee
 ---
 
 # [全栈登录注册](https://gitee.com/garvinew/register_login)

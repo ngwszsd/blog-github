@@ -2,9 +2,9 @@
 title: reactreduxdemo
 date: 2021-11-14
 tags:
- - giteeDemo
+ - Redux
 categories:
- - React
+ - Gitee
 ---
 
 # [react_redux_demo](https://gitee.com/garvinew/react_redux_demo)

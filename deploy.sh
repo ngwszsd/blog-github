@@ -1,7 +1,7 @@
 git status
 
 git add -A
-git commit -m "publish"
+git commit -m "update article"
 git push -f git@github.com:ngwszsd/blog-github.git main
 
 # 使用了cf page/ netlify 等构建工具
