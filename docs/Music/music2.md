@@ -7,8 +7,8 @@ categories:
  - music
 ---
 
-啦啦啦啦啦
-    <video autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
+啦啦啦啦啦<br />
+    <!-- <video width='500' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
       <source
       autoplay='autoplay'
         data-v-0698dde8=""
@@ -22,4 +22,5 @@ categories:
         srclang="en"
         default="default"
       />
-    </video>
+    </video> -->
+    <video width='500' controls="" autoplay="" name="media"><source src="https://ks-xpc17.xpccdn.com/268afcc7-91b4-4d90-b92a-daf5765cb50a.mp4" type="video/mp4"></video>
