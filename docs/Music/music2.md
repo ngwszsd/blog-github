@@ -7,7 +7,7 @@ categories:
  - music
 ---
 
-啦啦啦啦啦<br />
+啦啦啦啦啦
     <video width='500' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
       <source
       autoplay='autoplay'
@@ -38,3 +38,4 @@ categories:
         default="default"
       />
     </video>
+    <iframe src="//player.bilibili.com/player.html?aid=934726634&bvid=BV1NM4y1A7D3&cid=456055621&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
