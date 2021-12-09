@@ -12,3 +12,5 @@ categories:
 
 --------
 <video data-v-33f25cce="" src="https://utler-my.sharepoint.com/:v:/g/personal/ngw_t_edu_vn/Ef5aPQDCuxdKkPyx6-Z13O8B9N3GCuTrXfhWu4QI-MYw4A?e=4hVlpJ" autoplay="autoplay" muted="muted" loop="loop" style="width: 100%; height: 100%;"></video>
+
+<video id="vjs_video_1_AzureHtml5JS_api_7793" class="vjs-tech" oncontextmenu="return false;" tabindex="0" aria-hidden="true" preload="auto" aria-label="video player, press space key to play/pause the video. 由 Microsoft Stream 提供支持" src="blob:https://utler-my.sharepoint.com/5c64930d-7c43-4d8c-95a5-3aae57a35e0f" __idm_id__="655720449"></video>
