@@ -2,9 +2,9 @@
 title: 点击元素复制到剪贴板
 date: 2021-12-1
 tags:
- - tagReact
+ - JsHooks
 categories:
- - React
+ - JS Tool
 ---
 
 ## 点击复制到剪贴板自定义元素

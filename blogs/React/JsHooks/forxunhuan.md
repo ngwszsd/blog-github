@@ -2,12 +2,12 @@
 title: for循环问题var 解决办法
 date: 2021-12-3
 tags:
- - tagReact
+ - JsHooks
 categories:
- - React
+ - JS Tool
 ---
 
-# 属性分类
+#  for循环问题
 
 ```js
 // let

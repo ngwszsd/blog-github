@@ -2,9 +2,9 @@
 title: Promise案例
 date: 2021-12-3
 tags:
- - tagReact
+ - JsHooks
 categories:
- - React
+ - JS Tool
 ---
 
 ## Promise

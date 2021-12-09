@@ -2,9 +2,9 @@
 title: this指向
 date: 2021-12-3
 tags:
- - tagReact
+ - JsHooks
 categories:
- - React
+ - JS Tool
 ---
 
 ## 非严格模式下，函数内部的this指向window 严格模式下，为undefined

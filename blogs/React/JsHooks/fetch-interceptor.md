@@ -2,9 +2,9 @@
 title: fetch-interceptor
 date: 2021-11-22
 tags:
- - tagReact
+ - JsHooks
 categories:
- - React
+ - JS Tool
 ---
 
 # [fetch-interceptor](https://gitee.com/garvinew/register_login/blob/master/login/src/c_fetch.js)
