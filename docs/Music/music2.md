@@ -8,7 +8,7 @@ categories:
 ---
 
 <div style='text-align: center'>啦啦啦啦啦</div>
-    <video width='100%' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
+    <video width='100%' autoplay='autoplay' loop="loop" controls="controls" __idm_id__="901734401">
       <source
       autoplay='autoplay'
         data-v-0698dde8=""
