@@ -4,11 +4,11 @@ date: 2021-11-17
 tags:
  - music
 categories: 
- - music
+ - Music
 ---
 
-啦啦啦啦啦
-    <video width='500' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
+<div style='text-align: center'>啦啦啦啦啦</div>
+    <video width='100%' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
       <source
       autoplay='autoplay'
         data-v-0698dde8=""
@@ -23,19 +23,4 @@ categories:
         default="default"
       />
     </video>
-    <video width='500' autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
-      <source
-      autoplay='autoplay'
-        data-v-0698dde8=""
-        type="video/mp4"
-        src="https://ks-xpc17.xpccdn.com/268afcc7-91b4-4d90-b92a-daf5765cb50a.mp4"
-      />
-      <track
-        data-v-0698dde8=""
-        label="Unknown"
-        kind="subtitles"
-        srclang="en"
-        default="default"
-      />
-    </video>
-    <iframe src="//player.bilibili.com/player.html?aid=934726634&bvid=BV1NM4y1A7D3&cid=456055621&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
