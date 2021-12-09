@@ -1,7 +1,9 @@
 ---
 title: 可心gif
 date: 2021-11-17
-tages: 
+tags:
+ - music
+categories: 
  - music
 ---
 
