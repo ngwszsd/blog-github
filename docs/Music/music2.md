@@ -8,9 +8,18 @@ categories:
 ---
 
 啦啦啦啦啦
-<video data-v-33f25cce="" src="https://utler-my.sharepoint.com/personal/ngw_t_edu_vn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fngw_t_edu_vn%2FDocuments%2Fkexin.mp4&amp;ccat=0&amp;correlationid=b1afab47-142f-480b-89fa-6089bd4af9b6" autoplay="autoplay" muted="muted" loop="loop" style="width: 100%; height: 100%;"></video>
-
---------
-<video data-v-33f25cce="" src="https://utler-my.sharepoint.com/:v:/g/personal/ngw_t_edu_vn/Ef5aPQDCuxdKkPyx6-Z13O8B9N3GCuTrXfhWu4QI-MYw4A?e=4hVlpJ" autoplay="autoplay" muted="muted" loop="loop" style="width: 100%; height: 100%;"></video>
-
-<video id="vjs_video_1_AzureHtml5JS_api_7793" class="vjs-tech" oncontextmenu="return false;" tabindex="0" aria-hidden="true" preload="auto" aria-label="video player, press space key to play/pause the video. 由 Microsoft Stream 提供支持" src="blob:https://utler-my.sharepoint.com/5c64930d-7c43-4d8c-95a5-3aae57a35e0f" __idm_id__="655720449"></video>
+    <video autoplay='autoplay' data-v-0698dde8="" controls="controls" __idm_id__="901734401">
+      <source
+      autoplay='autoplay'
+        data-v-0698dde8=""
+        type="video/mp4"
+        src="https://ngws.ml/4K%20%E5%A4%9A%E6%83%B3%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E4%B8%96%E7%95%8C%20%E9%95%B0%E4%BB%93%E7%89%A9%E8%AF%AD%20-%20%E6%96%B0%E7%89%87%E5%9C%BA.mp4"
+      />
+      <track
+        data-v-0698dde8=""
+        label="Unknown"
+        kind="subtitles"
+        srclang="en"
+        default="default"
+      />
+    </video>
