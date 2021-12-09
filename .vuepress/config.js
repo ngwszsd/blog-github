@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "Leave Time For WorthWhile Characters And Stories.",
-  "description": "desc less",
+  "title": "Garvin",
+  "description": "Leave Time For WorthWhile Characters And Stories.",
   "dest": "public",
   "head": [
     [
