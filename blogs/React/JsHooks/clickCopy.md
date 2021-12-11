@@ -1,6 +1,6 @@
 ---
 title: 点击元素复制到剪贴板
-date: 2021-12-1
+date: 2021-12-01
 tags:
  - JsHooks
 categories:

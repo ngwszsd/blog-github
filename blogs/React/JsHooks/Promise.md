@@ -1,6 +1,6 @@
 ---
 title: Promise案例
-date: 2021-12-3
+date: 2021-12-03
 tags:
  - JsHooks
 categories:

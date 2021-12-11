@@ -1,6 +1,6 @@
 ---
 title: antd 开始日期小于结束日期
-date: 2021-12-1
+date: 2021-12-01
 tags:
  - React QS
 categories:

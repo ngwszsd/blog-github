@@ -1,6 +1,6 @@
 ---
 title: umi开启dva报错 原因(mfsu缓存)
-date: 2021-12-7
+date: 2021-12-07
 tags:
  - React QS
 categories:
