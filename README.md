@@ -2,7 +2,7 @@
 home: true
 heroText: This is Garvin
 tagline: Welcome To My Field
-heroImage: /hero.png
+heroImage: /xxx.mp4
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
