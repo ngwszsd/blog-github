@@ -1,13 +1,13 @@
 ---
 home: true
-heroText: This is Garvin
+heroText: This is Garvin, Welcome To My Field
 tagline: Welcome To My Field
-heroImage: /xxx.mp4
+heroImage: https://cdn.jsdelivr.net/gh/ngwszsd/cdn/img/back.png
 heroImageStyle: {
   maxWidth: '600px',
   width: '100%',
   display: block,
-  margin: '9rem auto 2rem',
+  margin: '4rem auto 2rem',
   background: '#fff',
   borderRadius: '1rem',
 }

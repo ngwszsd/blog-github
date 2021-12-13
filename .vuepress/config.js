@@ -87,7 +87,7 @@ module.exports = {
     "author": "garvin",
     "authorAvatar": "/avatar.png",
     "record": "for free",
-    "startYear": "2017"
+    "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
