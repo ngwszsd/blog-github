@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: This is Garvin, Welcome To My Field
-tagline: Welcome To My Field
+tagline:  
 heroImage: https://cdn.jsdelivr.net/gh/ngwszsd/cdn/img/back.png
 heroImageStyle: {
   maxWidth: '600px',
