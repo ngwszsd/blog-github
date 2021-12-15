@@ -6,14 +6,14 @@ tags:
 categories: 
  - Music
 ---
-:blush:
+
 - 👋 Hi, I’m @ngwszsd
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ... ✨
  
-##Emoj
+## Emoj
 :smile:	😄	:laughing:	😆
 :blush:	😊	:smiley:	😃	
 :smirk:	😏	:heart_eyes:	😍	:kissing_heart:	😘
@@ -76,7 +76,7 @@ categories:
 :tongue:	👅	:love_letter:	💌	:bust_in_silhouette:	👤
 :busts_in_silhouette:	👥	:speech_balloon:	💬	:thought_balloon:	💭
 
-##自然
+## 自然
 :sunny:	☀️	:umbrella:	☔	:cloud:	☁️
 :snowflake:	❄️	:snowman:	⛄	:zap:	⚡
 :cyclone:	🌀	:foggy:	🌁	:ocean:	🌊
@@ -116,7 +116,7 @@ categories:
 :earth_asia:	🌏	:volcano:	🌋	:milky_way:	🌌
 :partly_sunny:	⛅	
 :waxing_gibbous_moon:	🌔				
-##物体
+## 物体
 :bamboo:	🎍	:gift_heart:	💝	:dolls:	🎎
 :school_satchel:	🎒	:mortar_board:	🎓	:flags:	🎏
 :fireworks:	🎆	:sparkler:	🎇	:wind_chime:	🎐
@@ -204,7 +204,7 @@ categories:
 :banana:	🍌	:pear:	🍐	:pineapple:	🍍
 :sweet_potato:	🍠	:eggplant:	🍆	:tomato:	🍅
 :corn:	🌽				
-##地点
+## 地点
 :house:	🏠	:house_with_garden:	🏡	:school:	🏫
 :office:	🏢	:post_office:	🏣	:hospital:	🏥
 :bank:	🏦	:convenience_store:	🏪	:love_hotel:	🏩
@@ -241,7 +241,7 @@ categories:
 :fr:	🇫🇷	:es:	🇪🇸	:it:	🇮🇹
 :ru:	🇷🇺	:gb:	🇬🇧	:uk:	🇬🇧
 :de:	🇩🇪				
-##符号
+## 符号
 :one:	1️⃣	:two:	2️⃣	:three:	3️⃣
 :four:	4️⃣	:five:	5️⃣	:six:	6️⃣
 :seven:	7️⃣	:eight:	8️⃣	:nine:	9️⃣
