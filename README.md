@@ -4,8 +4,8 @@ heroText: This is Garvin, Welcome To My Field
 tagline:  
 heroImage: https://cdn.jsdelivr.net/gh/ngwszsd/cdn/img/back.png
 heroImageStyle: {
-  maxWidth: '600px',
-  width: '100%',
+<!--   maxWidth: '600px',
+  width: '100%', -->
   display: block,
   margin: '4rem auto 2rem',
   background: '#fff',
