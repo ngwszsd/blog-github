@@ -41,6 +41,11 @@ module.exports = {
             "icon": "reco-github"
           },
           {
+            "text": "Gitee",
+            "link": "https://gitee.com/garvinew",
+            "icon": "reco-gitee"
+          },
+          {
             "text": "Cloud Drive",
             "link": "https://ngws.ml/",
             "icon": "reco-tag"
