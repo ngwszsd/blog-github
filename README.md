@@ -10,7 +10,7 @@ heroImageStyle: {
   width: '103%',
   position: 'absolute',
   left: '0px',
-  top: '0px'
+  top: '-265px'
 }
 bgImageStyle: {
   height: '210px'
