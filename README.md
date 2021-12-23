@@ -5,9 +5,12 @@ tagline:
 heroImage: https://cdn.jsdelivr.net/gh/ngwszsd/cdn/img/back.png
 heroImageStyle: {
   display: block,
-  margin: '4rem auto 2rem',
   background: '#fff',
   borderRadius: '1rem',
+  max-width: 100vw,
+  width: '103%',
+  margin-left: '-20px',
+  margin-right: '-25px'
 }
 bgImageStyle: {
   height: '450px'
