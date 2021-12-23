@@ -38,22 +38,22 @@ module.exports = {
           {
             "text": "GitHub",
             "link": "https://github.com/ngwszsd",
-            "icon": "reco-github"
+            "icon": ""
           },
           {
             "text": "Gitee",
             "link": "https://gitee.com/garvinew",
-            "icon": "reco-gitee"
+            "icon": ""
           },
           {
             "text": "Cloud Drive",
             "link": "https://ngws.ml/",
-            "icon": "reco-tag"
+            "icon": ""
           },
           {
             "text": "Proxy Internet",
             "link": "https://garvin.ga/",
-            "icon": "reco-tag"
+            "icon": ""
           }
         ]
       }
