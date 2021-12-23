@@ -13,7 +13,7 @@ heroImageStyle: {
   top: '0px'
 }
 bgImageStyle: {
-  height: '450px'
+  height: '210px'
 }
 isShowTitleInHome: false
 actionText: Guide
