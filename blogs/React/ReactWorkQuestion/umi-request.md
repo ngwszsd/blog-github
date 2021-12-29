@@ -105,5 +105,5 @@ export default FreezeUpLoad
 ```
 ### 控制台输出
 ![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-img/File-bonery.png)
-### network  参照 [找不到Boundary（边界）](http://mtw.so/6eDldl)
+### 下图为正确传参数 network的payload是不会显示参数的 即使你打印到控制台也是空 参照 [找不到Boundary（边界）](http://mtw.so/6eDldl)
 ![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-img/binary.png)
