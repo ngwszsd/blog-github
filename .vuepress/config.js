@@ -91,8 +91,8 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "garvin",
     "authorAvatar": "/avatar.png",
-    "record": "for free",
-    "startYear": "2020"
+    "record": "The server：Charlotte North Carolina North America | Amazon Cloud Singapore | Cloudflare",
+    "startYear": "2021"
   },
   "markdown": {
     "lineNumbers": true
