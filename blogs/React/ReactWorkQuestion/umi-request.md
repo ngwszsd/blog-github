@@ -31,7 +31,7 @@ export async function uploadImage({ file, filename }) {
 
 
 + 我的例子
-```
+```ts
 * batchQuery({payload, callback}, {call}) {
   try {
     const {fileList} = payload
