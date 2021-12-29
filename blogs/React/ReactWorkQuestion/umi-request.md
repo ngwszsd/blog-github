@@ -7,7 +7,7 @@ categories:
  - React
 ---
 
-[官方解答](https://github.com/umijs/umi-request/issues/180)
++ [官方解答](https://github.com/umijs/umi-request/issues/180)
 
 ```js
 export async function uploadImage({ file, filename }) {
@@ -91,3 +91,19 @@ const FreezeUpLoad: FC = ({uploadVisible, handleCancel, handleOk}: any) => {
 }
 export default FreezeUpLoad
 ```
++ 自定义Input的file为 e.target.files[0]
+```html
+<div style={{display: 'flex', alignItems: 'center', width: 200, height: 40, position: 'relative', border: '1px solid #D7D7D7'}}>
+  <Input type="file" name={'file'} style={{width: 200, opacity: 0, cursor: 'pointer'}} value={''} onChange={event => handleChange(event)}/>
+  <span style={{marginLeft: 20, fontSize: 16,color: '#405DA1', position: 'absolute', right: -50}}>上传</span>
+</div>
+```
+```ts
+  const handleChange = e => {
+    console.log('>>>>>>>>',[e.target.files[0]]) // 输出二进制文件File: [File] 
+  }
+```
+### 控制台输出
+![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-img/File-bonery.png)
+### network  参照 [找不到Boundary（边界）](http://mtw.so/6eDldl)
+![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-img/binary.png)
