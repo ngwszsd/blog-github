@@ -38,4 +38,4 @@ EQUAL,gracePeriodDays->30
 EQUAL,paidUpTo->2222-12-31
 
 ```
-### [作者zhile.io](https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html)
+### [原作者zhile.io](https://zhile.io/2021/11/29/ja-netfilter-javaagent-lib.html)
