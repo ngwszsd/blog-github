@@ -20,7 +20,7 @@ categories:
 ```
 ![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-img/idea-find.png)
 
-janf_config.txt配置
+janf_config.txt配置---
 
 ```js
 // licenseeName：被许可人姓名，也就是Licensed to xxx里的xxx信息；
