@@ -1,5 +1,5 @@
 ---
-title: 点击元素复制到剪贴板
+title: Electron 开发桌面应用demo
 date: 2022-01-12
 tags:
  - electron
@@ -53,16 +53,13 @@ app.on('ready', () => {
   "author": "",
   "license": "ISC"
 }
-```
 
 
-
-```
-// 很可能不成功 可以换cnpm
-sudo npm i -g electron 
 ```
 ### run
 ```
+// npm很可能不成功 可以换cnpm
+sudo npm i -g electron 
 electron .
 ```
 ![](https://cdn.jsdelivr.net/gh/ngwszsd/cdn/mac-work/20220112163137.png)
