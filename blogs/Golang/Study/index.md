@@ -1,6 +1,6 @@
 ---
 title: Golang Study
-date: 2022-01-12
+date: 2022-01-14
 tags:
  - go
 categories:
