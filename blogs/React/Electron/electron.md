@@ -53,11 +53,9 @@ app.on('ready', () => {
   "author": "",
   "license": "ISC"
 }
-
-
 ```
 ### run
-```
+```bash
 // npm很可能不成功 可以换cnpm
 sudo npm i -g electron 
 electron .
