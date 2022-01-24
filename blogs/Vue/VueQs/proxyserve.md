@@ -13,7 +13,6 @@ categories:
 ```js
 // 直接配置target 那么浏览器内请求地址是 http://localhost:8080/register 相当于请求 http://127.0.0.1:1016/api/auth/register 不需要配置baseUrl 
 // 配置的话会报错相当于http://127.0.0.1:1016/api/auth/api/auth/register 两次api/auth/
-![](https://s3.bmp.ovh/imgs/2022/01/3d155e2c74e35920.png)
 module.exports = {
     devServer: {
         proxy: {
@@ -22,10 +21,10 @@ module.exports = {
                 changeOrigin: true,
             }
         }
-
     }
 }
 ```
+![](https://s3.bmp.ovh/imgs/2022/01/3d155e2c74e35920.png)
 ## 配置baseUrl
 ```js
 axios.defaults.baseURL = '/api/auth' 
