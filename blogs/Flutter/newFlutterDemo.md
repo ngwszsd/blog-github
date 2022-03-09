@@ -1,10 +1,15 @@
 ---
-title: flutter需求学习
-date: 2022-02-28
+title: Flutter>>>>>>>
+date: 2022-03-09
 tags:
- - flutter
+ - Flutter
 categories:
  - Flutter
 ---
 
-## flutter需求学习
+# 小程序image autosize参数
+
+```js
+mode="widthFix"
+
+```
