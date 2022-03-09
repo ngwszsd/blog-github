@@ -7,9 +7,3 @@ categories:
  - Flutter
 ---
 
-# 小程序image autosize参数
-
-```js
-mode="widthFix"
-
-```
