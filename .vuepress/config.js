@@ -47,12 +47,12 @@ module.exports = {
           },
           {
             "text": "Cloud Drive",
-            "link": "https://ngws.ml/",
+            "link": "https://cloud.ngwszsd.workers.dev/",
             "icon": ""
           },
           {
             "text": "Proxy Internet",
-            "link": "https://garvin.ga/",
+            "link": "https://proxy.ngwszsd.workers.dev/",
             "icon": ""
           }
         ]
