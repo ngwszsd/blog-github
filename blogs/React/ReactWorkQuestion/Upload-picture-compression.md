@@ -40,6 +40,7 @@ categories:
     });
   };
 ```
+### jsx
 ```tsx
       <Upload
         beforeUpload={beforeUpload}
