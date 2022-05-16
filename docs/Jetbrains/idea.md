@@ -12,6 +12,7 @@ categories:
 + [lanzou](https://ngw.lanzout.com/itK8pyd1fqj)
 + [Onedrive](https://utler-my.sharepoint.com/:u:/g/personal/ngw_t_edu_vn/ERzsvMPMD7RGvMkVnoJArhoBIC7zzkhnbcN-MWsdAXRFaQ?e=bghfZI)
 
++ [其他版本](https://www.jetbrains.com/zh-cn/webstorm/download/other.html)
 ### Step
 + 显示包内容进入 Content/bin/idea.vmoptions
 添加一条（/Users/osx/ja-netfilter/ja-netfilter.jar替换自己的插件绝对路径）
