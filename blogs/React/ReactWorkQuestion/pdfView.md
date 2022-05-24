@@ -38,7 +38,7 @@ import {saveAs} from 'file-saver'
   
 ```
 + 使用iframe预览 解决react-pdf插件预览pdf不清楚
-```tsx
+```html
     <iframe src="" id="iframe" frameBorder="0" style={{ width: '100%', height: '100vh' }}  />
 ```
 
