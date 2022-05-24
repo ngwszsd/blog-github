@@ -12,7 +12,10 @@ categories:
 + 注意
  需要设置 responseType: 'blob' 不然请求的文件流内容缺失
  + url 后添加 '#toolbar=0' 隐藏操作栏
+ + 响应头的 content-type: application/octet-stream 或者content-type: application/pdf 都可以预览 最好octet-stream文件流，下载直接用file-saver插件
 ```ts
+import {saveAs} from 'file-saver'
+
   function getStream() {
     request('https://vkceyugu.cdn.bspapp.com/VKCEYUGU-8e76dff9-ce38-4577-9e5c-398943705060/a5b050b8-3fa1-4436-b231-7b40725de731.pdf', {
       method: 'get',
@@ -25,6 +28,11 @@ categories:
       console.log('blob>>>', blob, res, url);
       const iframeDom = document.getElementById('iframe') as HTMLFormElement;
       iframeDom.src = url + '#toolbar=0';
+
+     // 下载的话
+     saveAs(blob, 'xxx.pdf')
+
+
     });
   }
   
