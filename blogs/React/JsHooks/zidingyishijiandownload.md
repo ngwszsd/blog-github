@@ -10,7 +10,7 @@ categories:
 ## 演示原生下载blob文件 重命名
 ## 也可以直接用file-saver插件下载
 
-```ts
+```tsx
 import { saveAs } from 'file-saver';
 import { useEffect } from 'react';
 
