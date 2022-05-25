@@ -31,7 +31,6 @@ export default () => {
     };
 
   useEffect(() => {
-
     const res = base64ToBlob('data:image/png;base64,iVBORw0KGgo....');
     // 通过blob创建文件链接
     const urls = URL.createObjectURL(res);
