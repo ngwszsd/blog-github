@@ -36,6 +36,11 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
+            "text": "图床/文件床",
+            "link": "https://drawing-bed.pages.dev/",
+            "icon": ""
+          },
+          {
             "text": "GitHub",
             "link": "https://github.com/ngwszsd",
             "icon": ""
