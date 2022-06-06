@@ -41,6 +41,11 @@ module.exports = {
             "icon": ""
           },
           {
+            "text": "pinia-demo",
+            "link": "https://pinia-vite.pages.dev/",
+            "icon": ""
+          },
+          {
             "text": "GitHub",
             "link": "https://github.com/ngwszsd",
             "icon": ""
