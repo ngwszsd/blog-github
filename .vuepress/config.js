@@ -37,12 +37,12 @@ module.exports = {
         "items": [
           {
             "text": "图床/文件床",
-            "link": "https://drawing-bed.pages.dev/",
+            "link": "https://filed.vercel.app/",
             "icon": ""
           },
           {
             "text": "pinia-demo",
-            "link": "https://pinia-vite.pages.dev/",
+            "link": "https://pinia-vite.vercel.app/",
             "icon": ""
           },
           {
