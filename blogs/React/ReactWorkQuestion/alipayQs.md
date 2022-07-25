@@ -32,5 +32,5 @@ categories:
         // res.data是上方返回的代码
         div.innerHTML = res.data; // html code
         document.body.appendChild(div);
-        document.forms.alipaysubmit.submit();
+        document.forms['alipaysubmit'].submit();
 ```
