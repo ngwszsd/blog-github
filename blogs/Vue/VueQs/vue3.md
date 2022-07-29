@@ -159,5 +159,50 @@ export default defineComponent({
 });
 </script>
 
+```
+### 状态管理pinia
++  main.ts
+  ```ts
+  app.use(createPinia())
+  ```
++  /src/store
+- 定义一个use的  useCounterStore  直接 使用 `const counter: A = 
+- 异步同步函数都写在action里
+useCounterStore()`
+```ts
+import { defineStore } from 'pinia'
 
+export const useCounterStore = defineStore('counter', {
+  state: () => {
+    return { count: 111111 }
+  },
+  // could also be defined as
+  // state: () => ({ count: 0 })
+  actions: {
+    increment() {
+      this.count++
+    },
+    getData() {
+      return new Promise((resolve: any, reject: any) => {
+        resolve([
+          {
+            id: 1,
+            name: 'tom',
+            age: 18
+          },
+          {
+            id: 2,
+            name: 'jerry',
+            age: 14
+          },
+          {
+            id: 3,
+            name: 'spark',
+            age: 22
+          }
+        ])
+      })
+    }
+  },
+})
 ```
