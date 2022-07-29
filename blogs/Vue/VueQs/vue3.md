@@ -109,3 +109,55 @@ const click = () => {
 </script>
 ```
 
+### 父组件调用子组件方法
++ Father.vue
+创建 childRef 组件里使用ref
+childRef.value调用 找不到子组件的方法可以套一层nextTick
+```js
+const childRef = ref<any>();
+  // childRef.value.doSth();
+  nextTick(() => {
+    childRef.value.doSth();
+  })
+<Son ref='childRef'>
+
+```
++ Son.vue
++ 要调用的方法doSth可以卸载setup也可以在methods
+```js
+
+<script lang="ts">
+import { defineComponent, ref } from "vue";
+export default defineComponent({
+  props: ["name", "values", "sonToFatherEmit", 'handleOk'],
+  // methods: {
+  //   doSth() {
+  //     console.log('>>>>>>>>>>')
+  //   }
+  // },
+  mounted() {
+    console.log(this.name, this.values);
+  },
+  setup(props, ctx) {
+    const doSth = () => {
+      console.log('>>>>>>>>>>')
+    }
+    const value = ref<string>("");
+    onMounted(() => {
+      console.log(props);
+    });
+    const clicks = () => {
+      ctx.emit("sonToFatherEmit", "xxxxxxxxxxx");
+      props.handleOk('ccccccccc')
+    };
+    return {
+      value,
+      clicks,
+      doSth
+    };
+  },
+});
+</script>
+
+
+```
