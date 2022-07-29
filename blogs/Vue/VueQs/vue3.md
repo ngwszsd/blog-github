@@ -276,6 +276,60 @@ watchEffect(() => {
   console.log(counter.count)
 })
 ```
+## JSX写法
+安装`import vueJsx from '@vitejs/plugin-vue-jsx'` 像使用vue()一样在plugins使用
+```ts
+  plugins: [
+    Vue({
+      include: [/\.vue$/, /\.md$/],
+      reactivityTransform: true,
+    }),
+    vueJsx(),
+  ]
+```
+```tsx
+import { Breadcrumb, BreadcrumbItem, Button } from "ant-design-vue";
+import { defineComponent, onMounted, withModifiers } from "vue";
+import { fetchGetCommunity } from "~/services/text";
+import { useCounterStore } from '~/store/counter'
+import axios from '../utils/http'
+const Text = defineComponent({
+  setup() {
+    const count = ref(0);
+    const counter = useCounterStore();
+    const inc = () => {
+      count.value++;
+    };
+
+    /**
+     *
+     */
+    const getCommunity = async () => {
+      const res = await fetchGetCommunity();
+    };
+    onMounted(() => {
+
+    });
+    return () => (
+      <Breadcrumb>
+        <BreadcrumbItem>Home</BreadcrumbItem>
+        <BreadcrumbItem>
+          <a onClick={getCommunity}>Application Center</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem>
+          <a onClick={inc}>111{{ count }}</a>
+        </BreadcrumbItem>
+        <BreadcrumbItem>An Application</BreadcrumbItem>家中有事，请假三天
+      </Breadcrumb>
+    );
+  },
+});
+
+export default Text;
+
+```
+
+
 ## 注意
 + 引入文件需要带.vue
 + ref 的值可以在template直接{{}} 用 但是在script要 .value拿到 
