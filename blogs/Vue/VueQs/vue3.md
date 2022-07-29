@@ -262,3 +262,22 @@ if (import.meta.hot) {
 
 
 ```
+## watch监听 数据
++ watch只能监听到ref reactive数据 pinia监听不到
++ watchEffect会自动检测你的数据但不能拿到oldValue
+```ts
+const values = ref(666);
+watch(values, (newValue, oldValue) => {
+  console.log('侦听器>>>>', newValue, oldValue)
+})
+
+
+watchEffect(() => {
+  console.log(counter.count)
+})
+```
+## 注意
++ 引入文件需要带.vue
++ ref 的值可以在template直接{{}} 用 但是在script要 .value拿到 
++ pinia 最后可能需要这个来触发热更新 `if (import.meta.hot) import.meta.hot.accept(acceptHMRUpdate(useUserStore, import.meta.hot))`
++ 最好使用最新的`<script lang="ts" setup> </script>` 尽量抛弃vue2的写法
