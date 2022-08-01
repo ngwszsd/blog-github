@@ -1,8 +1,8 @@
 ---
-title: vue2组件通信（vite）
+title: vue2组件通信
 date: 2022-07-29
 tags:
- - vue2
+ - vue
 categories:
  - Vue
 ---
