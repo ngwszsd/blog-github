@@ -1,9 +1,18 @@
+---
+title: vue2组件通信（vite）
+date: 2022-07-29
+tags:
+ - vue2
+categories:
+ - Vue
+---
+
 # 父>子
   ## 名字不能一样！！！ 
   + :father-msg="fatherKey" 
   - Father.vue
 ```html
-    <Son  
+    <Son
       :father-msg="fatherKey" 
     />
 ```

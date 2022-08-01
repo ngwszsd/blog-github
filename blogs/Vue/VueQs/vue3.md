@@ -159,6 +159,31 @@ export default defineComponent({
 });
 </script>
 
++ setup写外面 父组件调用子组件方法 defineExpose 接收
+```
+<script lang="ts" setup>
+const props = defineProps<{
+  values: string;
+  name: string;
+  handleOk: (a: string) => void;
+}>();
+
+const emits = defineEmits<{
+  (e: 'sonToFatherEmit', id: string, secondPar: string): void
+}>()
+const doSth = () => {
+  console.log('>>>>>>>>>>>>>>')
+}
+defineExpose({ doSth })
+console.log(emits);
+const click = () => {
+  props.handleOk('111111111111')
+  emits('sonToFatherEmit', "123", 'secondPar')
+}
+</script>
+```
+
+
 ```
 ### 状态管理pinia
 +  main.ts
