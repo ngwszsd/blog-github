@@ -1,6 +1,6 @@
 ---
 title: vue3组件通信（vite）
-date: 2022-07-29
+date: 2022-10-10
 tags:
  - vue3
 categories:
@@ -286,13 +286,75 @@ if (import.meta.hot) {
 
 ```
 ## watch监听 数据
-+ watch只能监听到ref reactive数据 pinia监听不到
++ watch监听到ref reactive数据 
 + watchEffect会自动检测你的数据但不能拿到oldValue
+
+### 这四种结果一样 > 都会在onMounted后首次执行导致多次请求!!!! 而且新旧值相同
+### 
+```ts
+// 侦听getter 函数 需要加deep: true才能和下方一样 否则不生效
+watch(() => paginationPar, (val, oldValue) => {
+  console.log(2222222,val, oldValue)
+}, { deep: true })
+// 普通引用对象
+watch(paginationPar, (val, oldValue) => {
+  console.log(2222222,val, oldValue)
+})
+
+// 放进数组的方式 侦听getter 函数 需要加deep: true才能和下方一样 否则不生效
+watch(() => [paginationPar], ([val]) => {
+  console.log(2222222,val)
+}, {deep: true})
+// 放进数组的方式 会首次执行
+watch([paginationPar], ([val]) => {
+  console.log(2222222,val)
+})
+
+```
+### 侦听引用对象的一个变化值 监听不到值情况 （可以改成侦听getter 函数）
+```ts
+// 侦听引用对象的一个变化值 ts报错 原因可能是watch只能侦听响应式数据源 加不加deep: true ts都报错  而且监听不到值
+watch(paginationPar.current, (val, oldValue) => {
+  console.log(2222222,val, oldValue)
+}, {deep: true})
+// 放入数组一样监听不到值
+watch([paginationPar.current], (val, oldValue) => {
+  console.log(2222222,val, oldValue)
+})
+```
+
+### getter函数方式侦听引用对象的一个变化值 以下两种都可以拿到新旧值！！！ 
+```ts
+watch(() => paginationPar.current, (val, oldValue) => {
+  console.log(2222222,val, oldValue)
+})
+watch(() => [paginationPar.current], ([val], [oldValue]) => {
+  console.log(2222222,val, oldValue)
+})
+```
+
+### 侦听多个引用对象的一个变化值 都可以拿到新旧值！！！ 
+```ts
+// 标准写法
+watch(() => [paginationPar.current, paginationPar.pageSize], ([val1, val2], [oldValue1,oldValue2]) => {
+  console.log(2222222,val1, val2,oldValue1,oldValue2)
+})
+// 这样无论怎么样都拿不到值
+watch([paginationPar.current, paginationPar.pageSize], ([val1, val2], [oldValue1,oldValue2]) => {
+  console.log(2222222,val1, val2,oldValue1,oldValue2)
+})
+```
+## 结论：
++ 侦听引用对象时： 可能会因为首次运行导致多次请求， { deep: true }仅仅适用于侦听某一个对象 不能拿到新旧值，发现是相同的
++ 侦听引用对象的一个变化值时： 需要在一个getter函数内 否则不生效 不会导致多次请求 能拿到新旧值
+
+
 ```ts
 const values = ref(666);
 watch(values, (newValue, oldValue) => {
   console.log('侦听器>>>>', newValue, oldValue)
 })
+
 
 
 watchEffect(() => {
